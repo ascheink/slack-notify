@@ -42,11 +42,11 @@ slack.alert({
   text: 'Current server stats',
   attachments: [
     {
-      fallback: 'Required Fallback String'
+      fallback: 'Required Fallback String',
       fields: [
         { title: 'CPU usage', value: '7.51%', short: true },
         { title: 'Memory usage', value: '254mb', short: true }
-      }
+      ]
     }
   ]
 })
